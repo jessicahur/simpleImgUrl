@@ -12,7 +12,7 @@ export default function(AngularModule) {
           img.caption = $scope.caption;
           img.url = $scope.url;
           img.$save(savedImg => {
-            console.log(savedImg);
+            $scope.imgs.push(savedImg);
           });
         }
       }

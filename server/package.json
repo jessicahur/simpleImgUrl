@@ -4,7 +4,7 @@
   "description": "server side img url host",
   "main": "server.js",
   "scripts": {
-    "test": "gulp test",
+    "test": "gulp testing",
     "start": "eval $(cat .env) nodemon server.js"
   },
   "author": "Jessica Tran hur",
@@ -15,5 +15,15 @@
     "express-restify-mongoose": "^3.1.1",
     "mongoose": "^4.4.7",
     "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0"
   }
 }

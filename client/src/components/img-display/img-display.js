@@ -7,8 +7,11 @@ export default function(AngularModule) {
       restrict: 'E', //restrict this directive to be html tag element
       template,
       scope: {
-        url: '@',
-        caption: '@'
+        url: '=',
+        caption: '='
+      },
+      controller: function($scope) {
+
       }
     }//end of return
   })

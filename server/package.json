@@ -4,7 +4,7 @@
   "description": "server side img url host",
   "main": "server.js",
   "scripts": {
-    "test": "gulp testing",
+    "test": "gulp default",
     "start": "eval $(cat .env) nodemon server.js"
   },
   "author": "Jessica Tran hur",

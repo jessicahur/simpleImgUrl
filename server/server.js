@@ -2,7 +2,7 @@ const app = require('./lib/app');
 const mongoose = require('mongoose');
 const dbURI = process.env.DB_URI;
 
-mongose.connect(dbURI);
+mongoose.connect(dbURI);
 
 mongoose.connection.on('connected', function () {
   console.log('Mongoose default connection open to ' + dbURI);
